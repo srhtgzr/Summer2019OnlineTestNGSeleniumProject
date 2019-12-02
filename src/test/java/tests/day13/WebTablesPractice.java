@@ -75,6 +75,7 @@ public class WebTablesPractice {
 
         int expectedRowCount = 5;
 
+
         int actualRowCount = driver.findElements(By.xpath("//table[@id='table1']//tr")).size();
 
         Assert.assertEquals(expectedRowCount,actualRowCount);
