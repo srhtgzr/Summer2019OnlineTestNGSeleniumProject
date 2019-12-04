@@ -49,8 +49,8 @@ public class CheckBoxes {
 
     }
 
-    @AfterMethod
-    public void teardown() {
-        driver.quit();
-    }
+//    @AfterMethod
+//    public void teardown() {
+//        driver.quit();
+//    }
 }

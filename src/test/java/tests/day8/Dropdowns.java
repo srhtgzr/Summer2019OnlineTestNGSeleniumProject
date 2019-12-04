@@ -68,8 +68,8 @@ public class Dropdowns {
         Assert.assertEquals(select.getFirstSelectedOption().getText(), "Maryland");
     }
 
-    @AfterMethod
-    public void teardown() {
-        driver.quit();
-    }
+//    @AfterMethod
+//    public void teardown() {
+//        driver.quit();
+//    }
 }
